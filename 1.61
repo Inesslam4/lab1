@@ -1,0 +1,49 @@
+//з)
+{var a,x:integer;
+begin
+  read(a);
+   a := a*a*a;
+   x :=a;
+   a := a*a;
+   a := a*a;
+   a := a*x;
+  WriteLn(a);
+end.}
+
+//и)
+{var a,x:integer;
+begin
+  read(a);
+   a := a*a*a;
+   x := a;
+   a := a*a;
+   a := a*a*a;
+   a := a*x;
+  writeln(a);
+end.}
+
+//к)
+{var a,x:longint;
+begin
+  read(a);
+   a := a*a;//2
+   a := a*a;//4
+   x := a;//4
+   a := a*a;//8
+   a := a*a*a;//24
+   a := a*x;//28
+  writeln(a);
+end.}  
+
+//л)
+{var a,x:longint;
+begin
+  read(a);
+   a := a*a;//2
+   a := a*a;//4
+   a := a*a;//8
+   a := a*a;//16
+   a := a*a;//32
+   a := a*a;//64
+  writeln(a);
+end.}  
