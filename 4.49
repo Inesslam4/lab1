@@ -1,0 +1,9 @@
+var a,b,c:integer;d,x1,x2:real;
+begin
+read(a,b,c);
+d:=sqrt((sqr(b) - 4*a*c));
+x1:=((-b+d)/(2*a));
+x2:=((-b-d)/(2*a));
+if x1=x2 then writeln('Корни уравнения равны',' ',x1,'=',x2)
+else writeln('x1','=',x1,' ','x2','=',x2,' ','Корни уравнения не равны друг другу');
+end.
