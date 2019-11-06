@@ -1,0 +1,8 @@
+var p,m,v:integer;
+begin
+  writeln('Введите массу');
+  read(m);
+  writeln('Введите объем');
+  read(v);
+  writeln('Плотность материала равна:',' ',m/v);
+end.
