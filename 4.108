@@ -1,0 +1,11 @@
+var suit:integer;
+begin
+  writeln('Введите число от 1 до 4');
+  read(suit);
+  case suit of
+    1:writeln('Масть карты:Пика');
+    2:writeln('Масть карты:Трефы');
+    3:writeln('Масть карты:Бубны');
+    4:writeln('Масть карты:Черви');
+  end;
+end.
