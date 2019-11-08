@@ -1,0 +1,7 @@
+var x:integer;
+begin
+  read(x);
+  if x<-1 then writeln('y=',-1);
+  if x>-1 then writeln('y=',x);
+  if x=-1 then writeln('y=',1);
+end.
