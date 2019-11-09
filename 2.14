@@ -1,0 +1,8 @@
+var a,b,c,s:integer;
+begin
+  read (a);
+  b:=a div 100;
+  c:=a mod 100;
+  s:=c*10+b;
+  writeln(s);
+end.
