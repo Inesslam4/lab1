@@ -1,0 +1,8 @@
+var x,y:Integer;
+begin
+  read(x,y);
+   if (x>=2) and (y>=1) then
+     writeln('Точка подходит условию')
+   else
+     writeln('Точка не подходит условию');
+end.
