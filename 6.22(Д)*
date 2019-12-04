@@ -1,0 +1,13 @@
+var 
+s,n,k:longint; 
+begin 
+read(n); 
+s:=1; 
+while n>0 do 
+ begin 
+ k:=n mod 10; 
+ n:=n div 10; 
+ if k>7 then s:=s*k; 
+ end; 
+writeln(s); 
+end. 
