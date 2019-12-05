@@ -1,0 +1,7 @@
+var x,a:integer;
+begin
+ x:=732;
+ a:=x mod 10;
+ x:=x div 10;
+writeln(a,x);
+end.
