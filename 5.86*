@@ -1,0 +1,9 @@
+var n,i,s:integer;
+begin
+write('n=');
+read(n);
+s:=0;
+for i:=n to 2*n do
+s:=s+i*i;
+write('S=',s);
+end.
